@@ -13,6 +13,7 @@
 	<!-- JS -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script src="custom.js"></script>
 </head>
 <body>
 	<!-- MiltonianTattoo for Banner & Heading -->
@@ -35,18 +36,33 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 mt-5">
-					<div id="logo"></div>
+					<img src="images/Banner.png" alt="Banner" class="img-fluid">
 				</div>
 				<div class="col-10 my-3 text-center">
-					<a href="species.html" class="btn headermain">Explore More</a>
-					<a href="contactus.html" class="btn headermain">Contact Us</a>
+					<a href="species.html" class="btn headermain mt-2">Explore More</a>
+					<a href="contactus.html" class="btn headermain2 mt-2">Contact Us</a>
 				</div>
 			</div>
 		</div>
+		<!--Waves Container-->
+		<div>
+			<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+				<defs>
+					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+				</defs>
+				<g class="parallax">
+					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+				</g>
+			</svg>
+		</div>
+		<!--Waves end-->
 	</div>
 	<!-- Header Section -->
 	<div class="text-center my-5">
-		<h1 class="header">Most Viewed Creatures</h1>
+		<h1 class="header neon">Most Viewed Creatures</h1>
 		<hr id="divider">	
 	</div>
 	<div class="container">
@@ -55,7 +71,7 @@
 				<div class="card">
 					<img src="images/dumbo2.jpg" alt="Dumbo Octopus" class="card-img-top">
 					<div class="card-img-overlay">
-						<h5 class="card-title text-center text-info bg-white"><a class="title" href="dumbooctopus.html">Dumbo Octopus</a></h5>
+						<h5 class="card-title text-center text-white bg-transparent"><a class="title" href="seabutterfly.html">Dumbo Octopus</a></h5>
 					</div>
 				</div>
 			</div>
@@ -64,7 +80,7 @@
 				<div class="card">
 					<img src="images/nudibranch2.jpg" alt="Nudibranch" class="card-img-top">
 					<div class="card-img-overlay">
-						<h5 class="card-title text-center text-info bg-white"><a class="title" href="nudibranch.html">Nudibranch</a></h5>
+						<h5 class="card-title text-center text-white bg-transparent"><a class="title" href="seabutterfly.html">Nudibranch</a></h5>
 					</div>
 				</div>
 			</div>
@@ -73,7 +89,7 @@
 				<div class="card">
 					<img src="images/seabutterfly2.jpg" alt="Sea Angel" class="card-img-top">
 					<div class="card-img-overlay">
-						<h5 class="card-title text-center text-info bg-white"><a class="title" href="seabutterfly.html">Sea Butterfly</a></h5>
+						<h5 class="card-title text-center text-white bg-transparent"><a class="title" href="seabutterfly.html">Sea Butterfly</a></h5>
 					</div>
 				</div>
 			</div>
@@ -82,7 +98,7 @@
 				<div class="card">
 					<img src="images/pufferfish1.jpg" alt="Puffer Fish" class="card-img-top">
 					<div class="card-img-overlay">
-						<h5 class="card-title text-center text-info bg-white"><a class="title" href="pufferfish.html">Puffer Fish</a></h5>
+						<h5 class="card-title text-center text-white bg-transparent"><a class="title" href="pufferfish.html">Puffer Fish</a></h5>
 					</div>
 				</div>
 			</div>
@@ -93,10 +109,11 @@
 	<div id="secBanner">
 		<div class="container">
 			<div class="row justify-content-center">
-				<h1 id="secTitle" class="text-center mt-5">Under Water</h1>
+				<h1 id="secTitle" class="text-center col-md-12 col-sm-12 mt-5">Under Water</h1>
+
 				<div class="col-lg-4 col-md-6 col-sm-12 my-5">
 					<div class="card">
-						<a href="nudibranch.html" class="imgHover"><img src="images/nudibranch.gif" alt="Nudibranch" class="card-img-top"></a>
+						<a href="immortaljellyfish.html" class="imgHover"><img src="images/imjellyfish.gif" alt="Immortal Jellyfish" class="card-img-top"></a>
 					</div>
 				</div>
 				<!-- End of Column -->
@@ -124,18 +141,18 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12">
-				<h1><b>Tardigrade</b></h1>
+				<h3><b>Tardigrade</b></h3>
 				<p class="topic mt-3">Tardigrades, known as water bears or moss piglets They have eight legs, and hands with four to eight claws on each. While strangely cute, these tiny animals are almost indestructible and can even survive in outer space.</p>
 
 				<p class="topic">Tardigrade is a phylum, a high-level scientific category of animal. There are over 1,000 known species within Tardigrade, according to Integrated Taxonomic Information System.They can live anywhere. They prefer to live in sediment at the bottom of a lake, on moist pieces of moss or other wet environments.</p>
 
 				<h4>Size</h4>
-				<p class="topic">These creatures look like the hookah-smoking caterpillar from "Alice in Wonderland." They can range from 0.05 millimeters to 1.2 mm long, but they usually don't get any bigger than 1 mm long.</p>
-				<a href="tardigrade.html" class="btn btn-info">Read More</a>
+				<p class="topic">These creatures look like the hookah-smoking caterpillar from "Alice in Wonderland." They can range from 0.05 millimeters to 1.2 mm long, but they usually don't get any bigger than 1 mm long. Most range from 0.3 to 0.5 mm (0.012 to 0.020 in) in length, although the largest species may reach 1.2 mm (0.047 in). The body consists of a head, three body segments each with a pair of legs, and a caudal segment with a fourth pair of legs.</p>
+				<a href="tardigrade.html" class="btn btn-primary">Read More</a>
 			</div>
 		</div>
 		<!-- End of Column -->
-		<h1 class="text-center my-5 header">Beauty of Under Water</h1>
+		<h1 class="text-center my-5 col-lg-12 col-md-12 col-sm-12 header neon">Beauty of Under Water</h1>
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-12">
 				<img src="images/nudibranch5.jpg" alt="Nudibranch" class="img-fluid img-br">
@@ -187,31 +204,31 @@
 	</div>
 	<!-- End of Section -->
 	<!-- Footer Section -->
-	<div class="container-fluid mt-5" id="footer">
+	<div class="container-fluid mt-5" id="footer" >
 		<div class="row">
 			<div class="col-12 text-center mt-5">
 				<span class="fa-stack text-success">
-					<a href="#top"><i class="fas fa-chevron-up"></i></a>
+					<a href="#top"><i class="fas fa-chevron-up text-white"></i></a>
 				</span>
 			</div>
 			<!-- End of Column -->
 			<div class="col-12 text-center mt-2">
-				<h3>Follow us on Social Media</h3>
+				<h3 class="text-white">Follow us on Social Media</h3>
 				<span class="fa-stack fa-2x">
-					<i class="fab fa-facebook"></i>
+					<i class="fab fa-facebook text-white"></i>
 				</span>
 				<span class="fa-stack fa-2x">
-					<i class="fab fa-twitter"></i>
+					<i class="fab fa-twitter text-white"></i>
 				</span>
 				<span class="fa-stack fa-2x">
-					<i class="fab fa-instagram"></i>
+					<i class="fab fa-instagram text-white"></i>
 				</span>
 				<span class="fa-stack fa-2x">
-					<i class="fab fa-google-plus-g"></i>
+					<i class="fab fa-google-plus-g text-white"></i>
 				</span>
 			</div>
 			<!-- End of Column -->
-			<div class="col-12 text-center mt-2">
+			<div class="col-12 text-center text-white mt-2">
 				<p>TheMysteriousSpeciesofUnderwater&copy;Copyright2020</p>
 			</div>
 		</div>
